@@ -1,0 +1,161 @@
+object FormCadastraMarca: TFormCadastraMarca
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de marca'
+  ClientHeight = 367
+  ClientWidth = 532
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PanelMarca: TPanel
+    Left = 0
+    Top = 0
+    Width = 532
+    Height = 177
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 24
+      Top = 8
+      Width = 33
+      Height = 13
+      Caption = 'C'#243'digo'
+      FocusControl = DBEdit1
+    end
+    object Label2: TLabel
+      Left = 24
+      Top = 47
+      Width = 74
+      Height = 13
+      Caption = 'Nome da marca'
+      FocusControl = DBEdit2
+    end
+    object Label3: TLabel
+      Left = 24
+      Top = 88
+      Width = 72
+      Height = 13
+      Caption = 'Representante'
+      FocusControl = DBEdit3
+    end
+    object Label4: TLabel
+      Left = 308
+      Top = 88
+      Width = 66
+      Height = 13
+      Caption = 'Contato repr.'
+      FocusControl = DBEdit4
+    end
+    object Label5: TLabel
+      Left = 308
+      Top = 47
+      Width = 83
+      Height = 13
+      Caption = 'Contato empresa'
+      FocusControl = DBEdit5
+    end
+    object DBEdit1: TDBEdit
+      Left = 24
+      Top = 24
+      Width = 83
+      Height = 21
+      DataField = 'id_marca'
+      DataSource = DataSource_Marca
+      TabOrder = 0
+    end
+    object DBEdit2: TDBEdit
+      Left = 24
+      Top = 63
+      Width = 264
+      Height = 21
+      DataField = 'nome'
+      DataSource = DataSource_Marca
+      TabOrder = 1
+    end
+    object DBEdit3: TDBEdit
+      Left = 24
+      Top = 104
+      Width = 264
+      Height = 21
+      DataField = 'representante'
+      DataSource = DataSource_Marca
+      TabOrder = 2
+    end
+    object DBEdit4: TDBEdit
+      Left = 308
+      Top = 104
+      Width = 83
+      Height = 21
+      DataField = 'fone_repres'
+      DataSource = DataSource_Marca
+      MaxLength = 14
+      TabOrder = 3
+    end
+    object DBEdit5: TDBEdit
+      Left = 308
+      Top = 63
+      Width = 83
+      Height = 21
+      DataField = 'fone_emp'
+      DataSource = DataSource_Marca
+      MaxLength = 14
+      TabOrder = 4
+    end
+    object BtnAdicionar: TButton
+      Left = 426
+      Top = 61
+      Width = 75
+      Height = 25
+      Cursor = crHandPoint
+      Caption = 'Adicionar'
+      TabOrder = 5
+      OnClick = BtnAdicionarClick
+    end
+    object BtnRemover: TButton
+      Left = 426
+      Top = 102
+      Width = 75
+      Height = 25
+      Cursor = crHandPoint
+      Caption = 'Remover'
+      TabOrder = 6
+      OnClick = BtnRemoverClick
+    end
+  end
+  object DBNavigatorMarca: TDBNavigator
+    Left = 0
+    Top = 334
+    Width = 532
+    Height = 33
+    DataSource = DataSource_Marca
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+    Align = alBottom
+    TabOrder = 1
+  end
+  object DBGridMarca: TDBGrid
+    Left = 0
+    Top = 177
+    Width = 532
+    Height = 157
+    Align = alClient
+    DataSource = DataSource_Marca
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DataSource_Marca: TDataSource
+    DataSet = DataModule_Sapatos.Table_Marca
+    Left = 232
+    Top = 224
+  end
+end

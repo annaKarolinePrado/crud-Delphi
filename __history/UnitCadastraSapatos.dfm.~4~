@@ -1,0 +1,226 @@
+object FormCadastroDeSapato: TFormCadastroDeSapato
+  Left = 0
+  Top = 0
+  Caption = 'Cadastro de sapato'
+  ClientHeight = 527
+  ClientWidth = 646
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBNavigator1: TDBNavigator
+    Left = 0
+    Top = 502
+    Width = 646
+    Height = 25
+    DataSource = DataSource_Sapatos
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+    Align = alBottom
+    TabOrder = 0
+    ExplicitLeft = 88
+    ExplicitTop = 376
+    ExplicitWidth = 240
+  end
+  object Panel_Sapatos: TPanel
+    Left = 0
+    Top = 0
+    Width = 646
+    Height = 337
+    Align = alTop
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 15
+      Top = 8
+      Width = 37
+      Height = 13
+      Caption = 'C'#243'digo:'
+      FocusControl = DBEdit1
+    end
+    object Label2: TLabel
+      Left = 135
+      Top = 8
+      Width = 84
+      Height = 13
+      Caption = 'C'#243'digo da marca:'
+      FocusControl = DBEdit2
+    end
+    object Label3: TLabel
+      Left = 15
+      Top = 175
+      Width = 50
+      Height = 13
+      Caption = 'Descri'#231#227'o:'
+      FocusControl = DBEdit3
+    end
+    object Label4: TLabel
+      Left = 15
+      Top = 62
+      Width = 31
+      Height = 13
+      Caption = 'Pre'#231'o:'
+      FocusControl = DBEdit4
+    end
+    object Label5: TLabel
+      Left = 255
+      Top = 8
+      Width = 48
+      Height = 13
+      Caption = 'Tamanho:'
+      FocusControl = DBEdit5
+    end
+    object Label6: TLabel
+      Left = 375
+      Top = 8
+      Width = 60
+      Height = 13
+      Caption = 'Quantidade:'
+      FocusControl = DBEdit6
+    end
+    object Label7: TLabel
+      Left = 15
+      Top = 119
+      Width = 21
+      Height = 13
+      Caption = 'Cor:'
+      FocusControl = DBEdit7
+    end
+    object Label8: TLabel
+      Left = 205
+      Top = 119
+      Width = 29
+      Height = 13
+      Caption = 'Estilo:'
+      FocusControl = DBEdit8
+    end
+    object Label9: TLabel
+      Left = 135
+      Top = 62
+      Width = 49
+      Height = 13
+      Caption = 'Desconto:'
+      FocusControl = DBEdit9
+    end
+    object Label10: TLabel
+      Left = 375
+      Top = 119
+      Width = 61
+      Height = 13
+      Caption = 'Faixa '#233'taria:'
+      FocusControl = DBEdit10
+    end
+    object DBEdit1: TDBEdit
+      Left = 15
+      Top = 24
+      Width = 84
+      Height = 21
+      DataField = 'id_sapato'
+      DataSource = DataSource_Sapatos
+      TabOrder = 0
+    end
+    object DBEdit2: TDBEdit
+      Left = 135
+      Top = 24
+      Width = 84
+      Height = 21
+      DataField = 'id_marca'
+      DataSource = DataSource_Sapatos
+      TabOrder = 1
+    end
+    object DBEdit3: TDBEdit
+      Left = 15
+      Top = 191
+      Width = 494
+      Height = 21
+      DataField = 'descricao'
+      DataSource = DataSource_Sapatos
+      TabOrder = 2
+    end
+    object DBEdit4: TDBEdit
+      Left = 15
+      Top = 78
+      Width = 106
+      Height = 21
+      DataField = 'preco'
+      DataSource = DataSource_Sapatos
+      TabOrder = 3
+    end
+    object DBEdit5: TDBEdit
+      Left = 255
+      Top = 24
+      Width = 84
+      Height = 21
+      DataField = 'tamanho'
+      DataSource = DataSource_Sapatos
+      TabOrder = 4
+    end
+    object DBEdit6: TDBEdit
+      Left = 375
+      Top = 24
+      Width = 84
+      Height = 21
+      DataField = 'quant'
+      DataSource = DataSource_Sapatos
+      TabOrder = 5
+    end
+    object DBEdit7: TDBEdit
+      Left = 15
+      Top = 135
+      Width = 134
+      Height = 21
+      DataField = 'cor'
+      DataSource = DataSource_Sapatos
+      TabOrder = 6
+    end
+    object DBEdit8: TDBEdit
+      Left = 205
+      Top = 135
+      Width = 134
+      Height = 21
+      DataField = 'estilo'
+      DataSource = DataSource_Sapatos
+      TabOrder = 7
+    end
+    object DBEdit9: TDBEdit
+      Left = 135
+      Top = 78
+      Width = 107
+      Height = 21
+      DataField = 'desconto'
+      DataSource = DataSource_Sapatos
+      TabOrder = 8
+    end
+    object DBEdit10: TDBEdit
+      Left = 375
+      Top = 135
+      Width = 134
+      Height = 21
+      DataField = 'faixa'
+      DataSource = DataSource_Sapatos
+      TabOrder = 9
+    end
+  end
+  object DBGrid1: TDBGrid
+    Left = 0
+    Top = 337
+    Width = 646
+    Height = 165
+    Align = alClient
+    DataSource = DataSource_Sapatos
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DataSource_Sapatos: TDataSource
+    DataSet = DataModule_Sapatos.Table_Sapatos
+    Left = 40
+    Top = 248
+  end
+end

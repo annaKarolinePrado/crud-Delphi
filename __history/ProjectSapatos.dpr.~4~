@@ -1,0 +1,18 @@
+program ProjectSapatos;
+
+uses
+  Vcl.Forms,
+  UnitCadastraSapatos in 'UnitCadastraSapatos.pas' {FormCadastroDeSapato},
+  UnitCadastraMarca in 'UnitCadastraMarca.pas' {FormCadastraMarca},
+  Unit_DM_Sapatos in 'Unit_DM_Sapatos.pas' {DataModule_Sapatos: TDataModule};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFormCadastroDeSapato, FormCadastroDeSapato);
+  Application.CreateForm(TFormCadastraMarca, FormCadastraMarca);
+  Application.CreateForm(TDataModule_Sapatos, DataModule_Sapatos);
+  Application.Run;
+end.

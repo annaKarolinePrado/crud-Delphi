@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/04/12 21:34:27.000.466,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/04 10:18:46.000.702,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/17 19:00:40.000.421,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/17 22:53:11.000.509,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/23 00:15:56.000.748,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/05/24 09:40:27.000.361,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/28 19:07:22.000.917,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/06/28 19:07:32.000.210,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2018/06/28 19:07:43.000.614,=C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2018/06/28 19:09:55.000.587,C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastraSapatos.pas</Transaction>
+    <Transaction>2018/06/28 19:09:55.000.587,C:\Users\karol\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastraSapatos.dfm</Transaction>
+    <Transaction>2018/06/28 19:10:04.000.708,C:\Users\karol\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\karol\Desktop\Projeto_Sapatos\ProjectSapatos.dproj</Transaction>
+    <Transaction>2018/06/28 19:10:12.000.747,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit2.pas</Transaction>
+    <Transaction>2018/06/28 19:10:34.000.087,C:\Users\karol\Desktop\Projeto_Sapatos\Unit2.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastraMarca.dfm</Transaction>
+    <Transaction>2018/06/28 19:10:34.000.087,C:\Users\karol\Desktop\Projeto_Sapatos\Unit2.pas=C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastraMarca.pas</Transaction>
+    <Transaction>2018/06/28 19:10:46.000.517,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/28 19:11:37.000.995,C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas=C:\Users\karol\Desktop\Projeto_Sapatos\Unit_DM_Sapatos.pas</Transaction>
+    <Transaction>2018/06/28 19:11:37.000.995,C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\Unit_DM_Sapatos.dfm</Transaction>
+    <Transaction>2018/06/29 01:16:41.000.931,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 01:17:08.000.316,C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastraSapatos.pas=</Transaction>
+    <Transaction>2018/06/29 01:19:29.000.980,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 01:33:25.000.111,C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastroDeSapatos.dfm</Transaction>
+    <Transaction>2018/06/29 01:33:25.000.111,C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas=C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastroDeSapatos.pas</Transaction>
+    <Transaction>2018/06/29 02:26:54.000.944,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 02:28:00.000.297,C:\Users\karol\Desktop\Projeto_Sapatos\UnitMenu.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.dfm</Transaction>
+    <Transaction>2018/06/29 02:28:00.000.297,C:\Users\karol\Desktop\Projeto_Sapatos\UnitMenu.pas=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 02:29:28.000.750,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 02:30:40.000.167,C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastroDeVenda.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.dfm</Transaction>
+    <Transaction>2018/06/29 02:30:40.000.167,C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastroDeVenda.pas=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 02:31:18.000.189,=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+    <Transaction>2018/06/29 02:46:25.000.951,C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastroFuncionario.dfm=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.dfm</Transaction>
+    <Transaction>2018/06/29 02:46:25.000.951,C:\Users\karol\Desktop\Projeto_Sapatos\UnitCadastroFuncionario.pas=C:\Users\karol\Desktop\Projeto_Sapatos\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

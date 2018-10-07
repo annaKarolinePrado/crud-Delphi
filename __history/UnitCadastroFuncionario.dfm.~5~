@@ -1,0 +1,178 @@
+object FormFuncionario: TFormFuncionario
+  Left = 0
+  Top = 0
+  Caption = 'Dados do funsion'#225'rio'
+  ClientHeight = 344
+  ClientWidth = 485
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBNavigator_funcionario: TDBNavigator
+    Left = 0
+    Top = 319
+    Width = 485
+    Height = 25
+    DataSource = DataSource_Funcionario
+    VisibleButtons = [nbFirst, nbPrior, nbNext, nbLast, nbRefresh]
+    Align = alBottom
+    TabOrder = 0
+  end
+  object PanelFuncionario: TPanel
+    Left = 0
+    Top = 0
+    Width = 485
+    Height = 209
+    Align = alTop
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 16
+      Top = 8
+      Width = 33
+      Height = 13
+      Caption = 'C'#243'digo'
+      FocusControl = DBEdit1
+    end
+    object Label2: TLabel
+      Left = 85
+      Top = 8
+      Width = 27
+      Height = 13
+      Caption = 'Nome'
+      FocusControl = DBEdit2
+    end
+    object Label3: TLabel
+      Left = 16
+      Top = 60
+      Width = 95
+      Height = 13
+      Caption = 'Data de nascimento'
+      FocusControl = DBEdit3
+    end
+    object Label4: TLabel
+      Left = 194
+      Top = 60
+      Width = 42
+      Height = 13
+      Caption = 'Telefone'
+      FocusControl = DBEdit4
+    end
+    object Label5: TLabel
+      Left = 16
+      Top = 112
+      Width = 45
+      Height = 13
+      Caption = 'Endere'#231'o'
+      FocusControl = DBEdit5
+    end
+    object Label6: TLabel
+      Left = 362
+      Top = 60
+      Width = 53
+      Height = 13
+      Caption = 'Estado c'#237'vil'
+      FocusControl = DBEdit6
+    end
+    object DBEdit1: TDBEdit
+      Left = 16
+      Top = 24
+      Width = 41
+      Height = 21
+      DataField = 'id_funcionario'
+      DataSource = DataSource_Funcionario
+      TabOrder = 0
+    end
+    object DBEdit2: TDBEdit
+      Left = 85
+      Top = 24
+      Width = 385
+      Height = 21
+      DataField = 'nome'
+      DataSource = DataSource_Funcionario
+      TabOrder = 1
+    end
+    object DBEdit3: TDBEdit
+      Left = 16
+      Top = 76
+      Width = 92
+      Height = 21
+      DataField = 'data_nascimento'
+      DataSource = DataSource_Funcionario
+      MaxLength = 10
+      TabOrder = 2
+    end
+    object DBEdit4: TDBEdit
+      Left = 194
+      Top = 76
+      Width = 104
+      Height = 21
+      DataField = 'telefone'
+      DataSource = DataSource_Funcionario
+      MaxLength = 14
+      TabOrder = 3
+    end
+    object DBEdit5: TDBEdit
+      Left = 16
+      Top = 128
+      Width = 454
+      Height = 21
+      DataField = 'endreco'
+      DataSource = DataSource_Funcionario
+      TabOrder = 4
+    end
+    object DBEdit6: TDBEdit
+      Left = 362
+      Top = 76
+      Width = 108
+      Height = 21
+      DataField = 'estado_civil'
+      DataSource = DataSource_Funcionario
+      TabOrder = 5
+    end
+    object BtnAdicionar: TButton
+      Left = 48
+      Top = 168
+      Width = 75
+      Height = 25
+      Cursor = crHandPoint
+      Caption = 'Adicionar'
+      TabOrder = 6
+      OnClick = BtnAdicionarClick
+    end
+    object BtnRemover: TButton
+      Left = 312
+      Top = 168
+      Width = 75
+      Height = 25
+      Cursor = crHandPoint
+      Caption = 'Remover'
+      TabOrder = 7
+      OnClick = BtnRemoverClick
+    end
+  end
+  object DBGrid_Funcionario: TDBGrid
+    Left = 0
+    Top = 209
+    Width = 485
+    Height = 110
+    Align = alClient
+    DataSource = DataSource_Funcionario
+    TabOrder = 2
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object DataSource_Funcionario: TDataSource
+    DataSet = DataModule_Sapatos.Table_Funcionario
+    Left = 224
+    Top = 248
+  end
+end
